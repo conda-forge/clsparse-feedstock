@@ -23,6 +23,7 @@ cmake \
     -DSUFFIX_BIN="" \
     -DSUFFIX_LIB="" \
     -DBUILD_TESTS=0 \
+    -DBoost_NO_BOOST_CMAKE=ON \
     "${OPENCL_ROOT_FLAG}" \
     "${SRC_DIR}/src"
 
