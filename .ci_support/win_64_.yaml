@@ -1,16 +1,15 @@
 boost_cpp:
-- '1.72'
+- 1.78.0
 c_compiler:
-- vs2015
+- vs2019
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- vs2015
+- vs2019
 pin_run_as_build:
   boost-cpp:
     max_pin: x.x.x
-zip_keys:
-- - c_compiler
-  - cxx_compiler
+target_platform:
+- win-64
